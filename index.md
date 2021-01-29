@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# 1、通过分析github网站应用，使用staruml建立以下3个系统功能的顺序图和活动图模型。这3个功能分别是：（1）Repositories(仓库)项目代码托管功能；（2）版本管理功能；（3）代码查找功能。
 
-You can use the [editor on GitHub](https://github.com/lizelan20182123069/lizelan20182123069/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![image](https://github.com/lizelan20182123069/lizelan20182123069/blob/gh-pages/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B92/YP%40%7BSV5_13GZ~JJ%604ZPCGBC.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://github.com/lizelan20182123069/lizelan20182123069/blob/gh-pages/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B92/B6%40)3_%7BH%24US%7D_5_Y%25U3E2KU.png)
 
-### Markdown
+## 2、对照UML顺序图和活动图，写一份建模说明，描述该系统功能的详细业务流程，请加上建模思路。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+顺序图与活动图的建模说明
 
-```markdown
-Syntax highlighted code block
+顺序图：用户首先要注册账号，然后进行登录；用户使用到仓库管理系统时要先创建仓库，建立文件并进行文件的编辑、删除、上传、下载、搜索等功能。并在新建的仓库里创建一个项目，并编辑项目；上传到系统中；其他用户可以进行浏览，并Fork（复制克隆），对原项目进行修改或补充，或与原作者一起多人开发并且系统可以记录项目变化，防止开发中的失误，其他用户可以对项目的问题提出质疑后用户可以进行修改，完善。在代码查询中，用户通过对项目名、仓库名、readme、description、收藏数、语言、Fork等查找所需代码。
 
-# Header 1
-## Header 2
-### Header 3
+活动图：用户开始后进行注册或者登录，登录账号后，新建仓库，然后创建文件，并编辑代码文件，再上传至仓库就可以完成仓库项目代码托管功能。若新建仓库后，创建项目复制克隆多人开发和变化记录，在发起请求经过系统的审核处理，对方提出，错误用户在进行错误的修改，就可以设置为同步仓库，可以实现代码合并，版本更新，这是版本管理功能。如果用户登陆帐号后，直接搜索代码代码查找成功，就可以完成代码查找功能。
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lizelan20182123069/lizelan20182123069/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 3、使用之前在github创建的个人博客，将上述过程记录在博客中。
